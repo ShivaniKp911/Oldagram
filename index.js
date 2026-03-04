@@ -28,7 +28,7 @@ const posts = [
     likes: 152,
   },
 ];
-console.log("I am still here!!! 😢😢😢😢");
+
 const mainSection = document.getElementById("main-section");
 mainSection.innerHTML = "";
 
