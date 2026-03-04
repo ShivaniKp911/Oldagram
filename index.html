@@ -1,50 +1,62 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="container header-container">
-                <img class = "logo" src="images/Oldagram.png" alt="Oldagram logo"> 
-                <img class="user-avatar" src="images/user-avatar.jpg" alt="user's avatar">
-            </div>
-            
-        </header>
-        <main>
-            <div class="container main-container">
-                <section class="user-info">
-                    <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="avatar of posting user">
-                    <div class="user-info-container">
-                    <h1>Vincent van Gogh</h1>
-                    <p>Zudert, Netherlands</p>
-                    </div>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header-container">
+        <img class="logo" src="images/Oldagram.png" alt="Oldagram logo" />
+        <img
+          class="user-avatar"
+          src="images/user-avatar.jpg"
+          alt="user's avatar"
+        />
+      </div>
+    </header>
+    <main id="main-section" class="container">
+      <div id="template-post" class="main-container">
+        <section class="user-info">
+          <img
+            id="avatar"
+            class="user-avatar"
+            src="images/avatar-vangogh.jpg"
+            alt="avatar of posting user"
+          />
+          <div class="user-info-container">
+            <h1>Vincent van Gogh</h1>
+            <p class="small-text">Zudert, Netherlands</p>
+          </div>
+        </section>
+        <section>
+          <img
+            src="images/post-vangogh.jpg"
+            class="post-image"
+            alt="user's post"
+          />
+        </section>
+        <section class="reaction-body">
+          <div class="reaction-btn-container">
+            <img src="images/icon-heart.png" alt="heart shaped like button" />
+            <img src="images/icon-comment.png" alt="comment button" />
+            <img src="images/icon-dm.png" alt="direct message" />
+          </div>
+          <div class="comment-section">
+            <p><span class="bold-text">21,492 likes </span></p>
+            <p>
+              <span class="bold-text">vincey1853 </span>just took a few
+              mushrooms lol
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
 
-                </section>
-                <section>
-                    <img    src = "images/post-vangogh.jpg"  class="post-image"  alt="user's post"/>
-
-                </section>
-                <section class="reaction-body">
-                    <div class="reaction-btn-container">
-                    <img src = "images/icon-heart.png" alt="heart shaped like button">
-                    <img src = "images/icon-comment.png" alt="comment button">
-                    <img src = "images/icon-dm.png" alt="direct message">
-                    </div>
-                    <p> 34533,4 likes</p>
-                    <p> comment: this is a comment</p>
-
-                </section>
-
-
-                
-            
-            </div>
-
-        </main>
-        
-        <script src="index.js"></script>
-    </body>
+    <script src="index.js"></script>
+  </body>
 </html>
