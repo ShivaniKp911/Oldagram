@@ -31,9 +31,9 @@ const posts = [
 
 const mainSection = document.getElementById("main-section");
 mainSection.innerHTML = "";
-
+let htmlContent = "";
 posts.forEach((item) => {
-  mainSection.innerHTML += ` <div class="main-container">
+   htmlContent += ` <div class="main-container">
         <section class="user-info">
           <img
             class="user-avatar"
@@ -68,4 +68,8 @@ posts.forEach((item) => {
           </div>
         </section>
       </div>`;
-});
+}
+
+);
+
+mainSection.innerHTML = htmlContent;
