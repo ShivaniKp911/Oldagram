@@ -6,7 +6,7 @@ const posts = [
     avatar: "images/avatar-vangogh.jpg",
     post: "images/post-vangogh.jpg",
     comment: "just took a few mushrooms lol",
-    likes: 21,
+    likes: 21345,
   },
   {
     name: "Gustave Courbet",
@@ -15,7 +15,7 @@ const posts = [
     avatar: "images/avatar-courbet.jpg",
     post: "images/post-courbet.jpg",
     comment: "i'm feelin a bit stressed tbh",
-    likes: 4,
+    likes: 45555,
   },
   {
     name: "Joseph Ducreux",
@@ -25,7 +25,17 @@ const posts = [
     post: "images/post-ducreux.jpg",
     comment:
       "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
-    likes: 152,
+    likes: 15562,
+  },
+  {
+    name: "Pablo Picasso",
+    username: "Picso972",
+    location: "Málaga, Spain",
+    avatar: "images/avatar-picasso.jpg",
+    post: "images/post-picasso.jpg",
+    comment:
+      "they said my portraits look weird… wait till they see the next one",
+    likes: 1003,
   },
 ];
 
@@ -33,7 +43,7 @@ const mainSection = document.getElementById("main-section");
 mainSection.innerHTML = "";
 let htmlContent = "";
 posts.forEach((item) => {
-   htmlContent += ` <div class="main-container">
+  htmlContent += ` <div class="main-container">
         <section class="user-info">
           <img
             class="user-avatar"
@@ -68,8 +78,6 @@ posts.forEach((item) => {
           </div>
         </section>
       </div>`;
-}
-
-);
+});
 
 mainSection.innerHTML = htmlContent;
